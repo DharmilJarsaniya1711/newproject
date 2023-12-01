@@ -10,7 +10,7 @@ import Link from "next/link";
 export default function Reset_Password() {
 
   return (
-    <div className="mx-auto h-screen max-h-screen p-6 sm:p-10 bg-white">
+    <div className="mx-auto h-[95vh] sm:h-screen max-h-screen p-6 sm:p-10 bg-white">
       <div className="flex h-full gap-5">
         <div className="w-full md:w-[65%] flex pt-16 justify-between items-center flex-col">
           <Image

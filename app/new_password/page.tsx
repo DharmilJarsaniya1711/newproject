@@ -6,10 +6,7 @@ import Image from "next/image";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import { useState } from "react";
-import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
-import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
-import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
 import Login_aside from "../components/login_aside";
 
 export default function New_Password() {
@@ -17,7 +14,7 @@ export default function New_Password() {
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
   return (
-    <div className="mx-auto h-screen max-h-screen p-6 sm:p-10 bg-white">
+    <div className="mx-auto h-[95vh] sm:h-screen max-h-screen p-6 sm:p-10 bg-white">
       <div className="flex h-full gap-5">
         <div className="w-full md:w-[65%] flex pt-16 justify-between items-center flex-col">
           <Image
@@ -27,9 +24,9 @@ export default function New_Password() {
             className=" absolute top-0 left-6"
             alt="Picture of the author"
           />
-          <div className="form text-black">
+          <div className="form pt-5 sm:pt-0">
             <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-[#293754] text-center">
-              Reset Password
+              Create new password
             </h2>
 
             <div className="input_container flex flex-col gap-4 pt-10">

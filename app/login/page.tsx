@@ -20,7 +20,7 @@ export default function Login() {
     event.preventDefault();
   };
   return (
-    <div className="mx-auto h-screen max-h-screen p-6 sm:p-10 bg-white">
+    <div className="mx-auto h-[95vh] sm:h-screen max-h-screen p-6 sm:p-10 bg-white">
       <div className="flex h-full gap-5">
         <div className="w-full md:w-[65%] flex pt-16 justify-between items-center flex-col">
           <Image
@@ -30,7 +30,7 @@ export default function Login() {
             className=" absolute top-0 left-6"
             alt="Picture of the author"
           />
-          <div className="form text-black">
+          <div className="form pt-5 sm:pt-0">
             <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-[#293754] text-center">
               Welcome back!
             </h2>
