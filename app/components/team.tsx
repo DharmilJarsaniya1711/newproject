@@ -14,7 +14,7 @@ export default function Team() {
         />
       </div>
       <div className="col-span-12 sm:col-span-7 order-2 flex flex-col justify-center gap-5">
-        <span className="text-4xl font-bold md:leading-snug">
+        <span className="text-3xl sm:text-4xl font-bold md:leading-snug">
           Join our adiba care team{" "}
         </span>
         <span className="font-light">

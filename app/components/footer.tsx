@@ -3,7 +3,7 @@
 export default function Footer() {
   return (
     <div className="flex flex-col justify-center items-center text-center gap-5 py-[40px] bg-[#293754] text-white">
-        <span className="text-3xl font-semibold px-5">
+        <span className="text-2xl sm:text-3xl font-semibold px-5">
           Start with adiba now!
         </span>
       <div className="flex flex-col sm:flex-row gap-5">

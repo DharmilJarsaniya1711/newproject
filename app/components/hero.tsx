@@ -47,10 +47,10 @@ export default function Hero() {
             </div>
           </div>
           <div className="col-span-12 py-6 md:py-0 md:col-span-7 flex justify-center md:justify-end items-center">
-            <div className="border-4 border-[#2937541A] lg:p-12 md:p-12 p-8 rounded-full">
+            <div className="border-4 border-[#2937541A] 2xl:p-14 lg:p-12 md:p-12 p-8 rounded-full">
               <Image
                 src={earth}
-                className="w-48 md:h-72 md:w-72 lg:h-80 lg:w-80 xl:h-[370px] xl:w-[370px] relative"
+                className="w-48 md:h-72 md:w-72 lg:h-80 lg:w-80 xl:h-[370px] xl:w-[370px] 2xl:h-[450px] 2xl:w-[450px] relative"
                 alt="Picture of the author"
               />
             </div>
