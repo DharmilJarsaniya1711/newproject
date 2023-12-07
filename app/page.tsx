@@ -121,9 +121,11 @@ export default function Home() {
                 }}
               />
 
-              <button className="w-full h-[45px] text-white rounded-lg bg-[#253754]">
-                Sign Up
-              </button>
+              <Link href="/home">
+                <button className="w-full h-[45px] text-white rounded-lg bg-[#253754]">
+                  Sign Up
+                </button>
+              </Link>
 
               <span className="text-[#5b5d61] text-center text-sm">
                 Already have an account?{" "}
